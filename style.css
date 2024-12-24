@@ -156,13 +156,51 @@ body{
     border-radius: 50px;
     position: absolute;
     z-index: 9;
-    background-color: palegoldenrod;
 }
 
-.elem .details:hover{
-    height:200px;
+#one, #two, #three{
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
 }
 
+.elem #one{
+    background-color: #FFF6DE;
+    font-size: 10px;
+}
+
+.elem #two{
+    background-color: #8AAAD6;
+}
+
+.elem #three{
+    background-color: #ffffff;
+}
+
+.elem #shop{
+    font-size: 12px;
+    font-family: Helvetica;
+}
+
+.elem #shop #i1{
+    font-size: 10px;
+    margin-right: 20px;
+}
+
+.elem #shop a{
+    font-size: 12px;
+    margin-left: 20px;
+    text-decoration: none;
+    color: black;
+    font-family: arial;
+    font-weight: 750;
+}
+
+.elem #shop #i2{
+    margin-left: 15px ;
+    font-size: 20px;
+}
+    
 #writing{
     height: 50vh;
     width: 100%;
